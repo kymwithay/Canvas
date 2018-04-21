@@ -14,6 +14,7 @@
 		C840203D2086971C00194FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C840203B2086971C00194FD2 /* LaunchScreen.storyboard */; };
 		C84020482086971C00194FD2 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84020472086971C00194FD2 /* CanvasTests.swift */; };
 		C84020532086971D00194FD2 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84020522086971D00194FD2 /* CanvasUITests.swift */; };
+		C8E95311208BD36A00E3536A /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E95310208BD36A00E3536A /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C840204E2086971D00194FD2 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84020522086971D00194FD2 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		C84020542086971D00194FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E95310208BD36A00E3536A /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,8 @@
 		C84020312086971C00194FD2 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				C8E9530F208BD34700E3536A /* ViewController */,
 				C84020322086971C00194FD2 /* AppDelegate.swift */,
-				C84020342086971C00194FD2 /* ViewController.swift */,
 				C84020362086971C00194FD2 /* Main.storyboard */,
 				C84020392086971C00194FD2 /* Assets.xcassets */,
 				C840203B2086971C00194FD2 /* LaunchScreen.storyboard */,
@@ -123,6 +125,15 @@
 				C84020542086971D00194FD2 /* Info.plist */,
 			);
 			path = CanvasUITests;
+			sourceTree = "<group>";
+		};
+		C8E9530F208BD34700E3536A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C84020342086971C00194FD2 /* ViewController.swift */,
+				C8E95310208BD36A00E3536A /* CanvasViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C84020352086971C00194FD2 /* ViewController.swift in Sources */,
+				C8E95311208BD36A00E3536A /* CanvasViewController.swift in Sources */,
 				C84020332086971C00194FD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
