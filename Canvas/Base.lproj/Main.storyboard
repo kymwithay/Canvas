@@ -66,13 +66,25 @@
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="WVf-Fi-Wgs" appends="YES" id="Dfi-Le-aYw"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qa1-om-cv0"/>
                     </view>
+                    <connections>
+                        <outlet property="trayView" destination="LeB-7p-hgs" id="ekD-f8-SzS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6LZ-Zb-gu0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="WVf-Fi-Wgs">
+                    <connections>
+                        <action selector="didPanTray:" destination="6oq-9a-Xji" id="ay7-yt-xdv"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1428" y="31.934032983508249"/>
         </scene>
